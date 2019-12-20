@@ -6,6 +6,8 @@
 
 2. On-premise data gateway.  Install the gateway on the same server or another server that can access the target API.  If the gateway is behind firewall, then ensure the domain names are whitelisted for outbound connectivity.  Follow documentation to download and install:  [https://docs.microsoft.com/en-us/azure/logic-apps/logic-apps-gateway-install](https://docs.microsoft.com/en-us/azure/logic-apps/logic-apps-gateway-install).
 
+    > Connectivity information is documented at [https://docs.microsoft.com/en-us/data-integration/gateway/service-gateway-communication](https://docs.microsoft.com/en-us/data-integration/gateway/service-gateway-communication)
+
 3. Connect on-premises gateway to Logic Apps.  Follow documentation: [https://docs.microsoft.com/en-us/azure/logic-apps/logic-apps-gateway-connection](https://docs.microsoft.com/en-us/azure/logic-apps/logic-apps-gateway-connection).
 
 4. Create a custom Logic Apps connector.  Follow documentation: [https://docs.microsoft.com/en-us/connectors/custom-connectors/create-logic-apps-connector](https://docs.microsoft.com/en-us/connectors/custom-connectors/create-logic-apps-connector) and [https://docs.microsoft.com/en-us/connectors/custom-connectors/define-openapi-definition](https://docs.microsoft.com/en-us/connectors/custom-connectors/define-openapi-definition).  Make sure to enable the flag "Connect via on-premises data gateway".
