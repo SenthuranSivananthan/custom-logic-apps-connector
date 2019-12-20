@@ -12,6 +12,6 @@
 
 4. Create a custom Logic Apps connector.  Follow documentation: [https://docs.microsoft.com/en-us/connectors/custom-connectors/create-logic-apps-connector](https://docs.microsoft.com/en-us/connectors/custom-connectors/create-logic-apps-connector) and [https://docs.microsoft.com/en-us/connectors/custom-connectors/define-openapi-definition](https://docs.microsoft.com/en-us/connectors/custom-connectors/define-openapi-definition).  Make sure to enable the flag "Connect via on-premises data gateway".
 
-    > Note:  If you don't have an Swagger definition, then create the API defintion manually using [https://docs.microsoft.com/en-us/connectors/custom-connectors/define-blank](https://docs.microsoft.com/en-us/connectors/custom-connectors/define-blank)
+    > If you don't have an Swagger definition, then create the API defintion manually using [https://docs.microsoft.com/en-us/connectors/custom-connectors/define-blank](https://docs.microsoft.com/en-us/connectors/custom-connectors/define-blank)
 
 5. Create a Logic App in the same region as the custom Logic Apps connector.  The custom connector will now be available under the **custom** tab for use.  On the first use, you will be prompted to select the on-premises data gateway.
