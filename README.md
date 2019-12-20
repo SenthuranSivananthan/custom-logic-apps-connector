@@ -2,7 +2,7 @@
 
 ### High level steps
 
-1. An application with a REST.  This application is either deployed in Azure VNET or on-premises.  A simple echo API written in Golang is available in [go/src/hello](go/src/hello) folder.
+1. An application with a REST endpoint.  This application is either deployed in Azure VNET or on-premises.  A simple echo API written in Golang is available in [go/src/hello](go/src/hello) folder.
 
 2. On-premise data gateway.  Install the gateway on the same server or another server that can access the target API.  If the gateway is behind firewall, then ensure the domain names are whitelisted for outbound connectivity.  Follow documentation to download and install:  [https://docs.microsoft.com/en-us/azure/logic-apps/logic-apps-gateway-install](https://docs.microsoft.com/en-us/azure/logic-apps/logic-apps-gateway-install).
 
