@@ -16,7 +16,7 @@
 
 5. Create a Logic App in the same region as the custom Logic Apps connector.  The custom connector will now be available under the **custom** tab for use.  On the first use, you will be prompted to select the on-premises data gateway.
 
-# Integrate Logic Apps with API Management for advanced security (i.e. built-in JWT validation), routing and message handling requirements
+# Integrate Logic Apps with API Management for AAD integration and JWT validation
 
 1. Import Logic App to API Management using [https://docs.microsoft.com/en-us/azure/api-management/import-logic-app-as-api](https://docs.microsoft.com/en-us/azure/api-management/import-logic-app-as-api).
 
