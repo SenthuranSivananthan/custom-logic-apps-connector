@@ -35,5 +35,5 @@ steps:
         dep ensure
     fi
     go build -v .
-  workingDirectory: '$(system.defaultWorkingDirectory)/$(build.repository.name)/go/src/hello'
+  workingDirectory: '$(system.defaultWorkingDirectory)/custom-logic-apps-connector/go/src/hello'
   displayName: 'Get dependencies, then build'
